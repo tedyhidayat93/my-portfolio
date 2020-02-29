@@ -1,1 +1,71 @@
-style.css
+@font-face {
+    font-family: "pacific";
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {
+    font-family: "sfpro";
+    src: url('../fonts/FontsFree-Net-SFProDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+h1,
+.btn {
+    font-family: "pacific";
+}
+
+.bg1 {
+    background-image: url(../img/ImageBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.bg2 {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.bg3 {
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    z-index: ;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(42, 38, 61, 0.82);
+    text-align: center;
+}
+
+.img-logo {
+    width: 165px;
+    height: 165px;
+    margin-top: 44px;
+}
+
+.banner-title {
+    line-height: 70px;
+}
+
+.tagline {
+    font-family: "roboto";
+    margin-bottom: 50px;
+}
+
+.about-desc {
+    font-family: "roboto";
+    font-size: 25px;
+}
